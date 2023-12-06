@@ -30,7 +30,7 @@ jobs:
         run: docker push ghcr.io/danknil/mishkakryt:1.0
 
   run_image:
-    name: Build, Run and send to telegram
+    name: Run Docker image
     runs-on: ubuntu-latest
     permissions:
       packages: write
